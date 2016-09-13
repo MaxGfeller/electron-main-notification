@@ -1,5 +1,6 @@
 const { ipcMain, BrowserWindow } = require('electron')
 const uuid = require('uuid')
+const path = require('path')
 
 var window = null
 var callbacks = {}
@@ -10,7 +11,7 @@ module.exports = function (title, opts, onClick) {
   window = new BrowserWindow({
     show: false
   })
-  window.loadURL('file://' + __dirname + '/fake-browser.html')
+  window.loadURL('file://' + path.join(__dirname, '/fake-browser.html'))
   window.on('ready-to-show', () => {
     sendNotification(title, opts, onClick)
   })
