@@ -4,8 +4,7 @@
   "description": "Display notifications from the electron main process",
   "main": "index.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
   "repository": {
     "type": "git",
@@ -28,7 +27,9 @@
     "url": "https://github.com/MaxGfeller/electron-main-notification/issues"
   },
   "homepage": "https://github.com/MaxGfeller/electron-main-notification#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^8.0.0"
+  },
   "dependencies": {
     "uuid": "^2.0.2"
   }
