@@ -1,0 +1,35 @@
+{
+  "name": "electron-main-notification",
+  "version": "0.0.0",
+  "description": "Display notifications from the electron main process",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MaxGfeller/electron-main-notification.git"
+  },
+  "keywords": [
+    "electron",
+    "desktop",
+    "notifications",
+    "desktop",
+    "notification",
+    "notifications",
+    "main",
+    "main",
+    "process"
+  ],
+  "author": "Max Gfeller <max.gfeller@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxGfeller/electron-main-notification/issues"
+  },
+  "homepage": "https://github.com/MaxGfeller/electron-main-notification#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "uuid": "^2.0.2"
+  }
+}
