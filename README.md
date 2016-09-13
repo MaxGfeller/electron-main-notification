@@ -1,5 +1,7 @@
 # electron-main-notification
 
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 Easily display native desktop applications from your Electron main process.
 
 Because Notifications use the HTML 5 Notification API, this usually only works
