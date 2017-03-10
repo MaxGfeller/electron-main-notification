@@ -14,6 +14,9 @@ ipcRenderer.on('display-notification', (event, arg) => {
   notification.onclick = () => {
     ipcRenderer.send('display-notification-onclick', arg.uid)
   }
+  notification.onclose = () => {
+    ipcRenderer.send('display-notification-onclose', arg.uid)
+  }
 })
 </script>
 </body>
