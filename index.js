@@ -28,7 +28,7 @@ module.exports = function (title, opts, onClick, onClose) {
 
 function sendNotification (title, opts, onClick, onClose) {
   var uid = uuid.v1()
-  callbacks[uid] = {};
+  callbacks[uid] = {}
   if (onClick) callbacks[uid].onClick = onClick
   if (onClose) callbacks[uid].onClose = onClose
   window.webContents.send('display-notification', {
