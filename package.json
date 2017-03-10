@@ -1,6 +1,6 @@
 {
   "name": "electron-main-notification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Display notifications from the electron main process",
   "main": "index.js",
   "scripts": {
